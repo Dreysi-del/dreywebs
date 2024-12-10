@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <title>Dreysi Websites</title>
+    <style>
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #152e87;
+            color: rgb(101, 169, 243);
+            text-align: center;
+            padding: 20px 0;
+            z-index: 10;
+        }
+
+        .header marquee {
+            text-transform: uppercase;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(login.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            width: 80%;
+            max-width: 700px;
+            justify-content: space-between;
+        }
+
+        .option-box {
+            flex: 1;
+            padding: 20px;
+            background-color: rgb(3, 37, 93);
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .option-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            border-color: #007BFF;
+        }
+
+        .option-box img {
+            max-width: 80%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+
+        .option-box h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+            color: lightblue;
+            text-shadow: 1px 1px 25px deepskyblue, 0 0 10px blue, 0 0 10px darkblue;
+        }
+
+        .option-box p {
+            font-size: 1rem;
+            color: aqua;
+        }
+    </style>
+</head>
+<header>
+    <div class="header">
+        <marquee>Hello! Welcome to Drey's Website! :D</marquee>
+    </div>
+</header>
+<body>
+    <div class="container">
+
+        <div class="option-box">
+            <a href="website.html" style="text-decoration: none;">
+                <img src="logos.png" alt="Option Box 1">
+                <h3>Drey's Website</h3>
+                <p>Click here for Drey's Website</p>
+            </a>
+        </div>
+        
+        <div class="option-box">
+            <a href="samples.html" style="text-decoration: none;">
+                <img src="number.png" alt=" Option Box 2">
+                <h3>Number System Conversion's Definitions</h3>
+                <p>Click here for Definitions</p>
+            </a>
+        </div>
+        
+    </div>
+</body>
+</html>
