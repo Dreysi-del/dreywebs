@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #063c46;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgba(48, 116, 123, 0.974);
+    color: white;
+    padding: 20px 0;
+    overflow: hidden; 
+}
+
+header .logo {
+    width: 110px; 
+    height: 110px; 
+    float: left;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 11%;
+    text-shadow: 1px 1px 25px whitesmoke, 0 0 10px aliceblue, 0 0 10px azure;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav .main-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav .main-nav li {
+    margin: 0 13px;
+}
+
+nav .main-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav .main-nav li a:hover {
+    color: aquamarine;
+}
+
+
+#home {
+    background-color: #063c46;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: aqua;
+}
+
+#home p {
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+#about {
+    background-color: #063c46;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+#about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: aqua;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.converter {
+    max-width: 400px;
+    margin: 10 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#numberconverter {
+    color: aqua;
+}
+
+#converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgba(48, 116, 123, 0.974);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .main-nav {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+}
